@@ -46,7 +46,7 @@
 
 	var name = __webpack_require__(1);
 
-	__webpack_require__(2)
+	__webpack_require__(2);
 
 	document.getElementById('app').textContent = 'hello ~' + name;
 

@@ -1,5 +1,5 @@
 var name = require('./name');
 
-require('style!css!./style.css')
+require('./style.css');
 
 document.getElementById('app').textContent = 'hello ~' + name;
