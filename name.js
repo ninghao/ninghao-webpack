@@ -1,1 +1,3 @@
-module.exports = "ninghao.net";
+let name = 'ninghao.net';
+
+export default name;
