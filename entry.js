@@ -1,7 +1,10 @@
-import name from './name';
+'use strict';
 
-import './style.css';
+import React from "react";
+import ReactDOM from 'react-dom';
+import Name from "./name";
 
-let input = document.createElement('input');
-document.getElementById('app').textContent = 'hello ~ ' + name;
-document.getElementById('app').appendChild(input);
+ReactDOM.render(
+  <Name />,
+  document.getElementById('app')
+);
