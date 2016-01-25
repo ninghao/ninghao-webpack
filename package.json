@@ -1,14 +1,14 @@
 {
   "name": "ninghao-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack 工具演示。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack-dev-server --inline --hot"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ninghao.net",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
